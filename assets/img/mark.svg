@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Meantime">
+  <!-- Placeholder reconstruction of the Meantime triangle M.
+       Replace with the owner's source SVG when it arrives (design-catalog/assets-needed.md item 1). -->
+  <polygon points="0,15 0,100 78,100" fill="#FDD757"/>
+  <polygon points="85,0 85,100 20,100" fill="#FBC9D8"/>
+  <polygon points="20,100 78,100 49,61" fill="#1A120B"/>
+</svg>
