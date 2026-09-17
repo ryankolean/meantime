@@ -392,6 +392,44 @@ a:focus-visible { text-decoration-thickness: 2px; }
   max-width: 60ch;
 }
 
+/* ---------- asset slots ----------
+   Framed placeholders where the owner's photography goes.
+   Tracked in design-catalog/assets-needed.md. */
+
+.asset-slot {
+  margin: 0;
+  border: 2px solid var(--ink);
+  background: var(--paper);
+  aspect-ratio: 3 / 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.asset-slot::before,
+.asset-slot::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: 20px solid var(--pink);
+}
+
+.asset-slot::before { top: var(--s-4); left: var(--s-4); }
+.asset-slot::after { bottom: var(--s-4); right: var(--s-4); border-bottom-color: var(--yellow); }
+
+.asset-slot__label {
+  font-family: var(--font-ui);
+  font-size: var(--fs-label);
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
 /* ---------- cards ---------- */
 
 .card {
