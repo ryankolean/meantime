@@ -2,13 +2,13 @@
   "name": "Meantime",
   "short_name": "Meantime",
   "description": "A neighborhood lager bar at 3409 Cass Ave, Detroit.",
-  "start_url": "/",
+  "start_url": "./",
   "display": "browser",
   "background_color": "#f5f2ef",
   "theme_color": "#f5f2ef",
   "icons": [
-    { "src": "/assets/img/icon-192.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "/assets/img/icon-512.png", "sizes": "512x512", "type": "image/png" },
-    { "src": "/assets/img/mark.svg", "sizes": "any", "type": "image/svg+xml" }
+    { "src": "assets/img/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/img/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "assets/img/mark.svg", "sizes": "any", "type": "image/svg+xml" }
   ]
 }
