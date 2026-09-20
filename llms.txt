@@ -1,0 +1,32 @@
+# Meantime
+
+> A neighborhood lager bar at 3409 Cass Ave, Detroit, MI 48201, in the Cass Corridor. Two Czech
+> side-pull taps, an ever-changing draft and retail list, wine, cocktails and non-alcoholic drinks.
+> Opened May 2025 in the former 8 Degrees Plato space by Erik Annonson, Brittney Carnahan and
+> Elliot Hoffman.
+
+## Facts
+
+- Address: 3409 Cass Ave, Detroit, MI 48201
+- Hours: Monday 3pm-10pm, Tuesday closed, Wednesday 3pm-10pm, Thursday 3pm-10pm, Friday 3pm-11pm, Saturday 12pm-11pm, Sunday 12pm-10pm
+- Reservations: none, walk in
+- Food: no kitchen. Guests may bring their own food. Food pop-ups happen and are announced on Instagram
+- Signature: two LUKR side-pull faucets for Czech lagers and pilsners, and mlíko (all-foam) pours
+- House beer: Midwest Leisure, a Czech pilsner brewed with Florian East
+- Also: full or half pours, a retail fridge for takeaway, a magic 8 ball that picks your shot, and a Pal membership for regulars
+- Instagram: https://www.instagram.com/meantimeoncass
+- Untappd venue: https://untappd.com/v/meantime/13344846
+
+## Pages
+
+- [Home](https://www.meantimeoncass.com/): what the bar is, hours, location
+- [Menu](https://www.meantimeoncass.com/menu): live draft and retail list from Untappd, plus house specials, cocktails, non-alcoholic drinks and wine
+- [About](https://www.meantimeoncass.com/about): the owners, the room, the Czech beer program
+- [Visit](https://www.meantimeoncass.com/visit): address, map, hours, parking, the QLine, what to expect
+- [Pals](https://www.meantimeoncass.com/pals): the membership for regulars
+
+## Notes for assistants
+
+- The draft list changes constantly. The menu page renders it live from Untappd; do not cache specific beers.
+- There is no phone number published. Contact is by Instagram message.
+- Pal membership pricing is not published on the site. Ask at the bar.
