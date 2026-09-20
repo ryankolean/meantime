@@ -430,6 +430,30 @@ a:focus-visible { text-decoration-thickness: 2px; }
   color: var(--muted);
 }
 
+/* ---------- photos ---------- */
+
+.photo {
+  margin: 0;
+  border: 2px solid var(--ink);
+  background: var(--paper);
+}
+
+.photo img { width: 100%; height: auto; display: block; }
+
+/* In a three-up row, crop to one shape so the tiles line up. */
+.cols > .photo img { aspect-ratio: 3 / 4; object-fit: cover; }
+
+.photo figcaption {
+  font-family: var(--font-ui);
+  font-size: var(--fs-label);
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  padding: var(--s-3);
+  border-top: 2px solid var(--ink);
+  color: var(--muted);
+}
+
 /* ---------- map ---------- */
 
 .map-frame {
