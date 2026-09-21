@@ -12,10 +12,11 @@
   --muted: #5c5046;
 
   /* type */
-  --font-display: "Instrument Serif", Georgia, "Times New Roman", serif;
+  --font-display: "Unbounded", "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --font-serif: "Instrument Serif", Georgia, "Times New Roman", serif;
   --font-ui: "Archivo", "Helvetica Neue", Arial, sans-serif;
 
-  --fs-display: clamp(3.5rem, 1.55rem + 8.32vw, 7.5rem);
+  --fs-display: clamp(3rem, 1.14rem + 7.96vw, 7.5rem);
   --fs-h1: clamp(2.5rem, 1.44rem + 4.53vw, 4.5rem);
   --fs-h2: clamp(1.875rem, 1.43rem + 1.89vw, 2.75rem);
   --fs-h3: clamp(1.375rem, 1.24rem + 0.57vw, 1.625rem);
@@ -73,11 +74,12 @@ h1, h2, h3, h4 { margin: 0 0 var(--s-4); font-weight: 400; }
 
 h1, h2 {
   font-family: var(--font-display);
-  letter-spacing: -0.01em;
+  font-weight: 900;
+  letter-spacing: -0.03em;
 }
 
-h1 { font-size: var(--fs-h1); line-height: 0.95; }
-h2 { font-size: var(--fs-h2); line-height: 1.05; }
+h1 { font-size: var(--fs-h1); line-height: 1.02; }
+h2 { font-size: var(--fs-h2); line-height: 1.08; }
 
 h3 {
   font-family: var(--font-ui);
@@ -91,9 +93,10 @@ p { margin: 0 0 var(--s-4); max-width: 66ch; }
 
 .display {
   font-family: var(--font-display);
+  font-weight: 900;
   font-size: var(--fs-display);
-  line-height: 0.88;
-  letter-spacing: -0.01em;
+  line-height: 0.98;
+  letter-spacing: -0.04em;
   margin: 0;
 }
 
@@ -296,9 +299,10 @@ a:focus-visible { text-decoration-thickness: 2px; }
 
 .wordmark__text {
   font-family: var(--font-display);
-  font-size: 1.75rem;
+  font-weight: 900;
+  font-size: 1.375rem;
   line-height: 1;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.04em;
 }
 
 .site-nav ul {
@@ -383,7 +387,7 @@ a:focus-visible { text-decoration-thickness: 2px; }
 
 .menu-row__desc {
   grid-column: 1 / -1;
-  font-family: var(--font-display);
+  font-family: var(--font-serif);
   font-style: italic;
   font-size: 1rem;
   line-height: 1.4;

@@ -56,11 +56,12 @@ Every pair the system permits clears AA for normal text. The two struck rows are
 
 | Role | Face | Source | Why this one |
 |---|---|---|---|
-| Display | **Instrument Serif** 400 + italic | Google Fonts | The live site's one good typographic move is a high-contrast condensed display serif (`kepler-std-condensed-display`) set very large with tight leading. Instrument Serif is the closest freely licensable analog: condensed, high-contrast, editorial, built for large sizes. The italic covers the printed menu's italic-serif joke lines |
+| Display | **Unbounded** 900 | Google Fonts, OFL | The wordmark face (see below) is the brand's strongest typographic asset, so display type now echoes it instead of contrasting with it. Unbounded is the nearest freely licensable analog to Gango: heavy geometric lowercase, single-storey `a`, tight counters, built for large sizes. Set it at -0.03em to -0.04em tracking, it runs wide by default |
+| Menu descriptions | **Instrument Serif** italic | Google Fonts, OFL | Kept from the first pass, now scoped to one job: the printed menu's italic-serif joke lines under each drink |
 | UI and body | **Archivo** 400 / 500 / 700 | Google Fonts | The site's body face is `aktiv-grotesk`, an Adobe-licensed neo-grotesque. Archivo is the nearest free grotesque with the same slightly warm, slightly condensed character, and it holds up in the small, letter-spaced, all-caps labels the printed menu uses everywhere |
-| Wordmark | The logo's own face, **unidentified** | owner | Shipped as SVG artwork, not as webfont type. Until the source is supplied, the wordmark is an image with a text alternative |
+| Wordmark | **Gango Black** by Adam Fathony | MyFonts, commercial | Identified 2026-09-21 from the printed menu header. Variable weight and width, released Sep 2023. Not licensed to us: $18 per style, $26 for the 19-style family, webfont licence sold separately. Until someone buys it or the owners hand over theirs, live wordmark type is set in Unbounded and the lockup stays artwork |
 
-Both webfonts are self-hostable, which matters: the current site's Adobe Fonts kit does not transfer to a repo we control.
+All three webfonts are self-hostable, which matters: the current site's Adobe Fonts kit does not transfer to a repo we control.
 
 Retire `Poppins`. It loads on the live site and renders nothing.
 
@@ -212,7 +213,7 @@ The printed menu is the voice document. Banner line, verbatim:
 
 These are the choices this document cannot make on its own. They are tracked in `assets-needed.md`.
 
-1. The wordmark typeface and its license, which decides whether the wordmark can ever be live text.
+1. The wordmark typeface is **Gango Black** (Adam Fathony, MyFonts). Open part is the licence: buy the webfont, or get the owners' copy from whoever drew the logo. Until then live type falls back to Unbounded.
 2. Whether pink or yellow is the primary accent band. The logo weights them equally; the site needs a lead.
 3. Photography. The system above assumes a real photo set exists. Today there is one usable image.
 4. Whether Pal membership sells online, which decides if any commerce stays on the site.
