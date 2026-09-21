@@ -5,7 +5,7 @@ One consolidated list, so nothing gets discovered piecemeal mid-build. Ordered b
 ## Blocking
 
 1. **Logo source files.** SVG (or AI/EPS) for the wordmark, the triangle M mark, and the horizontal lockup. Today we only have `Meantime_Horizontal+Logo_Full+Color.png` at 1500x400, which cannot scale cleanly and cannot be recolored for dark bands.
-2. **The wordmark typeface**, by name, and who holds the license. It decides whether the wordmark can ever be live text or stays as artwork forever.
+2. **The wordmark typeface licence.** The face is identified: **Gango Black** by Adam Fathony, sold on MyFonts. We need either the owners' existing licence (whoever drew the logo holds one) or a purchased webfont licence before the wordmark can be live text. Live type is set in Unbounded until then.
 3. **Current drinks menu.** The site's PNG is `MenuForWebsiteMARCH.png`. We need the current version, ideally as the source document rather than an export, plus confirmation of which prices still hold. The build converts it to real text.
 4. **Photography.** One usable room photo exists on the whole site. Needed: the bar and back bar, the two side-pull taps mid-pour, a mlíko pour with the foam intact, the sofa corner, the magic 8 ball, and at least one photo with people in it. Plus one portrait of the three owners together.
 5. **Pal membership, current terms.** Launch coverage said $80 the first year, $60 annually after, 15% off in-house, 25% off Mondays, a $5 house lager, a merch discount, and three parties a year, with sign-up framed as running through Memorial Day 2025. Confirm what is true now, and whether people join in person or online.
