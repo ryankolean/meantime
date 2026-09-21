@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-3 -3 106 106" role="img" aria-label="Meantime">
+  <!-- Monochrome outline lockup, as printed at the foot of the menu card:
+       the same two triangles as mark.svg, drawn as line art with the overlap filled.
+       Measured off MenuForWebsiteMARCH, where the two baselines sit at different heights. -->
+  <g fill="none" stroke="#1A120B" stroke-width="4.5" stroke-linejoin="miter">
+    <polygon points="0,14.5 0,98.8 86.7,98.8"/>
+    <polygon points="100,0 100,85.5 14.5,85.5"/>
+  </g>
+  <polygon points="14.5,85.5 73,85.5 43.4,56.6" fill="#1A120B"/>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="m8-title">
+  <title id="m8-title">Magic 8 ball, the die reading "you look fancy"</title>
+  <!-- Redrawn from the printed menu (MenuForWebsiteMARCH): line art, ink on paper. -->
+  <g fill="none" stroke="#1A120B" stroke-linecap="round">
+    <!-- the ball -->
+    <circle cx="120" cy="122" r="78" stroke-width="6"/>
+    <!-- shine, inside the rim -->
+    <path d="M 57.9 99.4 A 66 66 0 0 1 102.9 58.3" stroke-width="4"/>
+    <path d="M 170.6 79.6 A 66 66 0 0 1 185 110.5" stroke-width="4"/>
+    <path d="M 177.2 155 A 66 66 0 0 1 131.5 187" stroke-width="4"/>
+    <path d="M 62.8 155 A 66 66 0 0 1 55 133.5" stroke-width="4"/>
+    <!-- shake marks -->
+    <path d="M 18 92 L 31 83" stroke-width="4"/>
+    <path d="M 14 107 L 29 100" stroke-width="4"/>
+    <path d="M 197 187 L 210 176" stroke-width="4"/>
+    <!-- the window -->
+    <circle cx="108" cy="104" r="40" stroke-width="5"/>
+  </g>
+  <!-- the die -->
+  <path d="M 74 88 L 142 88 L 108 136 Z" fill="#1A120B"/>
+  <g fill="#FFFFFF" font-family="Archivo, Helvetica Neue, Arial, sans-serif" font-size="7.5" font-weight="700" text-anchor="middle">
+    <text x="108" y="101">YOU LOOK</text>
+    <text x="108" y="112">FANCY</text>
+  </g>
+  <!-- sparkles -->
+  <g fill="#1A120B">
+    <path d="M 30 19 Q 33 33 47 36 Q 33 39 30 53 Q 27 39 13 36 Q 27 33 30 19 Z"/>
+    <path d="M 58 14 Q 59.5 21 66 22.5 Q 59.5 24 58 31 Q 56.5 24 50 22.5 Q 56.5 21 58 14 Z"/>
+    <path d="M 186 27 Q 188.5 38 199 40.5 Q 188.5 43 186 54 Q 183.5 43 173 40.5 Q 183.5 38 186 27 Z"/>
+    <path d="M 215 37 Q 216.2 43 222 44.2 Q 216.2 45.4 215 51.4 Q 213.8 45.4 208 44.2 Q 213.8 43 215 37 Z"/>
+    <path d="M 126 192 Q 129 205 142 208 Q 129 211 126 224 Q 123 211 110 208 Q 123 205 126 192 Z"/>
+    <path d="M 158 195 Q 159.4 202 166 203.4 Q 159.4 204.8 158 211.4 Q 156.6 204.8 150 203.4 Q 156.6 202 158 195 Z"/>
+  </g>
+</svg>
