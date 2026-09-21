@@ -171,7 +171,9 @@ Ink 1px border, 0 radius, 16px padding, label above in `--fs-label`. Error text 
 
 ## 8. Logo
 
-- **Lockups:** horizontal (mark plus wordmark), wordmark alone, mark alone. All three exist as PNG; SVG is needed.
+- **Lockups:** horizontal (mark plus wordmark), wordmark alone, mark alone.
+- **Mark:** `assets/img/mark.svg`, redrawn as real vector from the owner's `Meantime_M+symbol_Full+Color.png` at 1473px. Geometry verified against that file: 1.3% of pixels differ, all of it edge antialiasing. Note the two baselines sit at different heights, so the yellow runs on under the pink and tapers to a point at the right. Earlier versions of this file guessed that detail wrong.
+- **Wordmark:** `assets/img/wordmark.png`, the owner's `Meantime_Wordmark_No+Clearspace.png` trimmed to 1000px wide on transparency. Still raster, so it cannot be recoloured for dark bands. An SVG is still wanted.
 - **Clear space:** the height of the mark's short edge on all four sides.
 - **Minimum size:** wordmark 120px wide, mark 24px.
 - **Color:** full color on cream or paper. All-ink on pink or yellow. All-cream on ink. Never on a photograph without a solid panel behind it.

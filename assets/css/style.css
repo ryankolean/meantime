@@ -294,11 +294,11 @@ a:focus-visible { text-decoration-thickness: 2px; }
 
 .wordmark__mark { width: 34px; height: 34px; flex: none; }
 
-.wordmark__text {
-  font-family: var(--font-display);
-  font-size: 1.75rem;
-  line-height: 1;
-  letter-spacing: -0.02em;
+/* The wordmark is the owner's artwork, never live type set in a substitute face. */
+.wordmark__type {
+  height: 1.5rem;
+  width: auto;
+  flex: none;
 }
 
 .site-nav ul {
