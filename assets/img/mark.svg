@@ -1,7 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Meantime">
-  <!-- Placeholder reconstruction of the Meantime triangle M.
-       Replace with the owner's source SVG when it arrives (design-catalog/assets-needed.md item 1). -->
-  <polygon points="0,15 0,100 78,100" fill="#FDD757"/>
-  <polygon points="85,0 85,100 20,100" fill="#FBC9D8"/>
-  <polygon points="20,100 78,100 49,61" fill="#1A120B"/>
+  <!-- The triangle M: a yellow right triangle and a pink one crossing, the overlap in ink.
+       The two baselines sit at different heights, so the yellow runs on under the pink and
+       tapers to a point at the right. Coordinates measured off the owner's artwork,
+       Meantime_M+symbol_Full+Color.png, at 1473px. -->
+  <polygon points="0,13.3 0,100 86.4,100" fill="#FDD757"/>
+  <polygon points="100,0 100,86.9 13.9,86.9" fill="#FBC9D8"/>
+  <polygon points="13.9,86.9 72.9,86.9 43.5,57" fill="#1A120B"/>
 </svg>

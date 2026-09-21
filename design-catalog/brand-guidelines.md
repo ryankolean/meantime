@@ -59,7 +59,7 @@ Every pair the system permits clears AA for normal text. The two struck rows are
 | Display | **Unbounded** 900 | Google Fonts, OFL | The wordmark face (see below) is the brand's strongest typographic asset, so display type now echoes it instead of contrasting with it. Unbounded is the nearest freely licensable analog to Gango: heavy geometric lowercase, single-storey `a`, tight counters, built for large sizes. Set it at -0.03em to -0.04em tracking, it runs wide by default |
 | Menu descriptions | **Instrument Serif** italic | Google Fonts, OFL | Kept from the first pass, now scoped to one job: the printed menu's italic-serif joke lines under each drink |
 | UI and body | **Archivo** 400 / 500 / 700 | Google Fonts | The site's body face is `aktiv-grotesk`, an Adobe-licensed neo-grotesque. Archivo is the nearest free grotesque with the same slightly warm, slightly condensed character, and it holds up in the small, letter-spaced, all-caps labels the printed menu uses everywhere |
-| Wordmark | **Gango Black** by Adam Fathony | MyFonts, commercial | Identified 2026-09-21 from the printed menu header. Variable weight and width, released Sep 2023. Not licensed to us: $18 per style, $26 for the 19-style family, webfont licence sold separately. Until someone buys it or the owners hand over theirs, live wordmark type is set in Unbounded and the lockup stays artwork |
+| Wordmark | **Gango Black** by Adam Fathony | MyFonts, commercial | Identified 2026-09-21 from the printed menu header. Variable weight and width, released Sep 2023. Not licensed to us: $18 per style, $26 for the 19-style family, webfont licence sold separately. We do not set the wordmark in type at all: it ships as the owner's artwork (section 8). The licence only matters if it ever needs to be live text, or if new lockups have to be set |
 
 All three webfonts are self-hostable, which matters: the current site's Adobe Fonts kit does not transfer to a repo we control.
 
@@ -172,7 +172,9 @@ Ink 1px border, 0 radius, 16px padding, label above in `--fs-label`. Error text 
 
 ## 8. Logo
 
-- **Lockups:** horizontal (mark plus wordmark), wordmark alone, mark alone. All three exist as PNG; SVG is needed.
+- **Lockups:** horizontal (mark plus wordmark), wordmark alone, mark alone.
+- **Mark:** `assets/img/mark.svg`, redrawn as real vector from the owner's `Meantime_M+symbol_Full+Color.png` at 1473px. Geometry verified against that file: 1.3% of pixels differ, all of it edge antialiasing. Note the two baselines sit at different heights, so the yellow runs on under the pink and tapers to a point at the right. Earlier versions of this file guessed that detail wrong.
+- **Wordmark:** `assets/img/wordmark.png`, the owner's `Meantime_Wordmark_No+Clearspace.png` trimmed to 1000px wide on transparency. Still raster, so it cannot be recoloured for dark bands. An SVG is still wanted.
 - **Clear space:** the height of the mark's short edge on all four sides.
 - **Minimum size:** wordmark 120px wide, mark 24px.
 - **Color:** full color on cream or paper. All-ink on pink or yellow. All-cream on ink. Never on a photograph without a solid panel behind it.
