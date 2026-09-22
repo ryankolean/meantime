@@ -1,4 +1,15 @@
+# PRE-LAUNCH. This site is a preview on GitHub Pages and must not be indexed:
+# every canonical and og:image on it points at meantimeoncass.com, which does
+# not serve these pages yet. An indexed preview would hand search engines a set
+# of canonicals resolving to 404s.
+#
+# AT CUTOVER, REPLACE THE THREE LINES BELOW WITH:
+#   User-agent: *
+#   Allow: /
+# and work through PRE-LAUNCH.md. Shipping this file to production as-is would
+# deindex the whole site.
+
 User-agent: *
-Allow: /
+Disallow: /
 
 Sitemap: https://www.meantimeoncass.com/sitemap.xml
